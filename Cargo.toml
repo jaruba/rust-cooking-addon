@@ -1,0 +1,17 @@
+[package]
+name = "stremio-cooking"
+version = "0.1.0"
+authors = ["Jaruba Firanelli <branza.alex@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+reqwest = "0.9.18"
+rocket = "0.4.2"
+rocket_contrib = "0.4.2"
+rocket_cors = "0.5.0"
+serde = "1.0.94"
+serde_json = "1.0.40"
+stremio-core = { git = "https://github.com/stremio/stremio-core" }

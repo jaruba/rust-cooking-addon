@@ -1,0 +1,9 @@
+{
+	"name": "Cooking Recipes",
+	"id": "org.stremio.cookingrec",
+	"resources": ["catalog","meta"],
+	"types": ["channel"],
+	"catalogs": [{ "type": "channel", "id": "cooking", "genres": ["Beef", "Breakfast", "Chicken", "Dessert", "Goat", "Lamb", "Miscellaneous", "Pasta", "Pork", "Seafood", "Side", "Starter", "Vegan", "Vegetarian"], "extra": [{ "name": "search" }, { "name": "genre" }] }],
+	"version": "0.0.1",
+	"idPrefixes": ["cooking:"]
+}
